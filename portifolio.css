@@ -8,10 +8,11 @@ header{
 	background-position: -120px;
 	width: 100%;
 	height: 77%;
+	position: fixed;
 }
 #div_header_primeiro{
 	margin-left: 265px;
-	margin-top: ;
+	margin-top: 180px;
 	width: 182px;
 	height: 120px;
 	font-weight: bold;
@@ -21,10 +22,11 @@ header{
 }
 #div_header_segundo{
 	margin-left: 265px;
-	margin-top: 150px;
+	margin-top:;
 	font-size: 22px;
 	font-family: "BebasNeue" ;
 	color: white;
+	position: fixed;
 	width: 510px;
 	height: 26px;
 }
@@ -34,6 +36,8 @@ nav{
 	font-family: "BebasNeue";
 	font-weight: bold;
 	float:left;
+	margin-top: 490px;
+	position: fixed;
 	width: 100%;
 	height: 40px;
 	padding-top: 20px;
@@ -63,4 +67,16 @@ li:hover{
 	border-bottom-style: groove;
 	color:#65ba99;
 	border-color: rgba(101,186,153,.3)
+}
+aside{
+	width:100%;
+	height: 100%;
+	background-color: #65ba99;
+	float:left;
+}
+#corpo{
+	width: 100px;
+	height: 100px;
+	float:left;
+	position: fixed;
 }
