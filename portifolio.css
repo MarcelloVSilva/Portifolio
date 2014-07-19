@@ -11,6 +11,7 @@ header{
 	background-position: -120px;
 	width: 100%;
 	height: 77%;
+	float: left; 
 }
 #div_header_primeiro{
 	margin-left: 265px;
@@ -37,7 +38,6 @@ nav{
 	font-family: "roboto";
 	font-weight: bold;
 	float:left;
-	margin-top: 490px;
 	width: 100%;
 	height: 40px;
 	padding-top: 20px;
@@ -75,17 +75,86 @@ aside{
 	float:left;
 }
 #primeiroTXT_aside{
-	width: 100px;
-	height: 100px;
-	float:left;
+	width: 130px;
+	height: 25px;
 	font-family: "roboto";
 	font-size: 20px;
+	color: white;
+	margin-left: 600px;
+	margin-top: 40px;
 }
 #segundoTXT_aside{
-	width: 100px;
-	height: 100px;
-	float:left;
+	width: 500px;
+	height: 17px;
 	font-family: "roboto";
 	font-size: 13px;
+	color: white;
+	margin-left: 518px;
+}
+#img_1{
+	width: 470px;
+	margin-top: 30px;
+	margin-left: 200px;
+	float:left;
+}
+#img_2{
+	width: 470px;
+	margin-top: 30px;
+	float:left;
 
+}
+#img_3{
+	width: 470px;
+	margin-left: 200px;
+	float:left;
+
+}
+#img_4{
+	width: 470px;
+	float:left;
+
+}
+#img_5{
+	width: 470px;
+	margin-left: 200px;
+	float:left;
+
+}
+#img_6{
+	width: 470px;
+	float:left;
+
+}
+#img_7{
+	width: 470px;
+	margin-left: 200px;
+	float:left;
+
+}
+#img_8{
+	width: 470px;
+	float:left;
+
+}
+#img_9{
+	width: 470px;
+	margin-left: 200px;
+	float:left;
+
+}
+#img_10{
+	width: 470px;
+	float:left;
+
+}
+#img :hover{
+	background-color: #65ba99;
+}
+#quebra_pagina{
+	background-image: url("C:/Users/Marcello/Documents/GitHub/Portifolio/portfolio/bg_testimonial.png");
+	width: 100%;
+	height: 300px;
+	float: left;
+	background-position-y: 760px;
+	margin-top: 60px;
 }
